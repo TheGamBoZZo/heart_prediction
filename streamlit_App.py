@@ -3,8 +3,8 @@ import pandas as pd
 import joblib
 
 # Load the model and scaler
-model = joblib.load(r'TheGamBoZZo/heart_prediction/best_model.pkl')
-scaler = joblib.load(r'TheGamBoZZo/heart_prediction/scaler.pkl')
+model = joblib.load(r'/mount/src/heart_prediction/best_model.pkl')
+scaler = joblib.load(r'/mount/src/heart_prediction/scaler.pkl')
 
 # Define the input fields
 def user_input_features():

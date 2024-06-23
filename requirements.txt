@@ -1,0 +1,10 @@
+pandas==2.0.2
+scikit-learn==1.2.2
+joblib==1.2.0
+streamlit==1.21.0
+seaborn==0.12.2
+matplotlib==3.7.1
+
+# To Run the installation of these libraries do the following:
+# pip freeze > requirements.txt
+# pip install -r requirements.txt

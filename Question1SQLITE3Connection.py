@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 # Path to the uploaded CSV file
-csv_file_path = (r'C:\Users\raees\Downloads\heart.csv')
+csv_file_path = (r'TheGamBoZZo/heart_prediction/heart.csv')
 
 # Connect to the SQLite database (or create it if it doesn't exist)
 conn = sqlite3.connect('heartDB.db')

@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 import sqlite3
 
-csv_file_path = (r'C:\Users\raees\OneDrive\Desktop\Honours Modules\ITDAA\Assignemnts\final\heart.csv')
+csv_file_path = (r'TheGamBoZZo/heart_prediction/heart.csv')
 # Load the dataset
 conn = sqlite3.connect('heartDB.db')
 
@@ -53,5 +53,5 @@ for name, model in models.items():
         best_model = model
 
 # Save the best model and the scaler
-joblib.dump(best_model, r'C:\Users\raees\OneDrive\Desktop\Honours Modules\ITDAA\Assignemnts\final\best_model.pkl')
-joblib.dump(scaler, r'C:\Users\raees\OneDrive\Desktop\Honours Modules\ITDAA\Assignemnts\final\scaler.pkl')
+joblib.dump(best_model, r'TheGamBoZZo/heart_prediction/best_model.pkl')
+joblib.dump(scaler, r'TheGamBoZZo/heart_prediction/scaler.pkl')
